@@ -9,8 +9,8 @@
         <meta name="keywords" content="{{ .Site.Params.keywords }}">
         {{ .Hugo.Generator }}
 
-        <link rel="icon" type="image/png" href="{{ "/favicon-32x32.png" | relURL }}" sizes="32x32">
-        <link rel="icon" type="image/png" href="{{ "/favicon-16x16.png" | relURL }}" sizes="16x16">
+		<link rel="icon" type="image/png" href="{{ .Site.Params.favicon }}" sizes="32x32">
+		<link rel="icon" type="image/png" href="{{ .Site.Params.favicon_large }}" sizes="96x96">
 
         <link rel="stylesheet" href="{{ "dist/theme.css" | relURL }}">
 
